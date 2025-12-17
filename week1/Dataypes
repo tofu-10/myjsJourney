@@ -1,0 +1,12 @@
+1. Scope (Where the variable lives)
+
+        a. var is Function-Scoped: If you create a var inside a loop or an if statement, it "leaks" out and is available everywhere inside that function.
+
+        b. let and const are Block-Scoped: They only exist inside the curly braces {} where they were created. This is much safer.
+
+
+
+2. Reassignment and Redeclaration
+        var: You can change the value and even redeclare the same variable name in the same script without an error. (Very messy!)
+
+        let: You can change the value (reassign), but you cannot redeclare it in the same scope.

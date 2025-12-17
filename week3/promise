@@ -1,0 +1,16 @@
+A promise is an object of js that represents the eventual results of the asynchronous operations, i.e either success or failure.
+
+a promise is an engine 
+    -we can build that engine by ourselves manually using new promise()
+    -we can let the js engine handle promise itself by using async function
+
+   
+   
+    🚨 Important distinction (this matters)
+
+new Promise() → create a promise
+
+async/await → consume a promise (or auto-create one)
+
+You still need promises underneath.
+async doesn’t replace promises — it uses them.
