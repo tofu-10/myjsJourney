@@ -1,3 +1,6 @@
+// Array has its methods like filter , map , find, reduce. 
+
+
 let nums = [1, 2, 3, 4, 5, 6];
 function evenSquares(nums){
     let result= nums.filter((n)=>n%2==0).map((n)=>n**2)
