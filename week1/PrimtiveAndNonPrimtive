@@ -2,7 +2,7 @@ There exist two types of datatypes in js
     1. Primtive: Meaning that once we  we cannot change it later. Like: String, integer etc
                     How they are stored: They are stored by value. If you copy a primitive, you create a brand-new copy of that data.
     2. Non Primtive (objects): We can change the contents of it even after creating.
-                            how they are stored:  They are stored by reference. When you create an object, it isn't stored directly in the variable. 
+                               how they are stored:  They are stored by reference. When you create an object, it isn't stored directly in the variable. 
                                 Instead, the variable holds a "pointer" (an address) to where the object sits in memory.
 
                                 Objects: Collections of key-value pairs ({ name: "Tofu", age: 5 }).
