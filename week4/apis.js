@@ -19,7 +19,7 @@ function API1() {
     .then((data) =>
       data.map(({ name, email }) => console.log(`name: ${name}  email: ${email}`))
     )
-    .catch((err) => console.log(err));
+    .catch((err) => console.log(err));      
 }
 
 API1();
