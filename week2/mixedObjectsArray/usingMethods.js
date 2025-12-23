@@ -6,7 +6,7 @@ let orders = [
 ];
 
 function totalPriceOfDeliveredOrder(orders){
-    let totalPrice=orders.filter((order)=>order.delivered==true).reduce((p1,p2)=>p1.price+p2.price)
+    let totalPrice=orders.filter((order)=>order.delivered==true).reduce((p1,p2)=>p1.price+p2.price,0)
     console.log(totalPrice);
 }
 
