@@ -31,6 +31,13 @@ let displayName=document.getElementById('displayName');
 
 
 displayName.addEventListener("click",()=>{
-    alert(inputName.value);
+    console.log(`Hello ${inputName.value.trim()} your age is: ${inputAge.value}`);
 
+})
+
+
+let diplayNameLive=document.getElementById('displayNameLive');
+
+inputName.addEventListener("input",(event)=>{
+    diplayNameLive.innerText=`Hello ${event.target.value}`;
 })
