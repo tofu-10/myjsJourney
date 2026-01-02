@@ -41,3 +41,4 @@ let diplayNameLive=document.getElementById('displayNameLive');
 inputName.addEventListener("input",(event)=>{
     diplayNameLive.innerText=`Hello ${event.target.value}`;
 })
+

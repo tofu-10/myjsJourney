@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btnThisFunction">click me</button>
+    <script>
+        let thisFunction=document.querySelector(".thisFunction");
+        let btnThisFunction=document.getElementById('btnThisFunction');
+        btnThisFunction.addEventListener('click',function(){
+            this.innerText="clicked";  //"this" means that its just a reference, it points to something, in this case it points to the button
+
+        })  
+    </script>
+</body>
+</html>

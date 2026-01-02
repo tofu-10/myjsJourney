@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hide{
+            display: none;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <h1 class="hide">hello there my name is rijan shrestha</h1>
+
+    <script>
+        let hiddenIntro=document.querySelector('.hide');
+        function toggleHide(){
+            setTimeout(() => {
+                hiddenIntro.classList.toggle('hide');
+            }, 3000);
+        }
+toggleHide();
+    </script>
+
+    </body>
+</html>
